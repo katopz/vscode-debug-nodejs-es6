@@ -1,0 +1,35 @@
+{
+  "name": "vscode-debug-nodejs-es6",
+  "version": "1.0.0",
+  "description": "How to debug ES6 NodeJS with VSCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katopz/vscode-debug-nodejs-es6.git"
+  },
+  "author": "katopz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katopz/vscode-debug-nodejs-es6/issues"
+  },
+  "homepage": "https://github.com/katopz/vscode-debug-nodejs-es6#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
