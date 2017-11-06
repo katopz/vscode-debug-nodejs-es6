@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katopz/vscode-debug-nodejs-es6.git"
+    "url": "git+https://github.com/horihiro/vscode-debug-nodejs-es6.git"
   },
-  "author": "katopz",
+  "author": "katopz / horihiro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/katopz/vscode-debug-nodejs-es6/issues"
+    "url": "https://github.com/horihiro/vscode-debug-nodejs-es6/issues"
   },
-  "homepage": "https://github.com/katopz/vscode-debug-nodejs-es6#readme",
+  "homepage": "https://github.com/horihiro/vscode-debug-nodejs-es6#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0"
